@@ -1,0 +1,78 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: slateblue;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 675px;
+    background-color: #333;
+    padding: 50px;
+    border-radius: 40px;
+    gap: 3rem;
+}
+.card .text-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.card .text-heading h1 {
+    font-size: 40px;
+    
+}
+
+.card .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+}
+    .card .text-box p {
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+       
+    }
+
+    .card .btn-box{
+        display: flex;
+    flex: 1;
+
+    }
+    .card .btn-box button {
+        width: 300px;
+        height: 70px;
+        background-color: rgb(156, 143, 238);
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        font-size: 2rem;
+        transition: all 0.3s;
+        box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .card .btn-box button:hover {
+        background-color: rgb(169, 158, 241);
+    }
+
+    .card .btn-box button:active {
+        background-color: rgb(91, 69, 236);
+        transform: translate(2px, 2px);
+        box-shadow: 0px 0px 0px 10 rgb(0, 0, 0);
+    }
